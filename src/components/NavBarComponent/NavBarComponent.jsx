@@ -9,10 +9,10 @@ function NavBarComponent() {
         <Container>
           <Navbar.Brand href="#home">REMJ</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About me</Nav.Link>
-            <Nav.Link href="#knowledge">Knowledge</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
+            <Nav.Link href="#home">Inicio</Nav.Link>
+            <Nav.Link href="#about">Sobre mi</Nav.Link>
+            <Nav.Link href="#knowledge">Conocimientos</Nav.Link>
+            <Nav.Link href="#experience">Experiencia</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
