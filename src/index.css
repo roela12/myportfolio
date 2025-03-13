@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(12, 12, 12);
+}
+
+p,
+h2 {
+  color: white;
+  margin: 70px;
+}
+
+.box {
+  margin: 20px;
+}
