@@ -1,13 +1,13 @@
 import React from "react";
 import "./KnowledgeContainer.css";
-import node from "../../assets/node.png";
+import nodejs from "../../assets/nodejs.webp";
 
 const KnowledgeContainer = () => {
   return (
     <div class="parentKnowledge box" id="knowledge">
       <div class="div1Knowledge">
         <h2>Conocimientos: </h2>
-        <p>
+        <div class="paragraph">
           A lo largo de mi formación y experiencia autodidacta, he adquirido
           conocimientos sólidos en varias áreas de la informática y la
           programación. Algunos de los lenguajes, tecnologías y herramientas que
@@ -46,10 +46,10 @@ const KnowledgeContainer = () => {
           Estoy en constante actualización y aprendizaje, siempre buscando
           mejorar mis habilidades y mantenerme al día con las nuevas tendencias
           y tecnologías en el campo de la programación.
-        </p>
+        </div>
       </div>
       <div class="div2Knowledge">
-        <img id="imgKnowledge" src={node} alt="node image" />
+        <img id="imgKnowledge" src={nodejs} alt="node image" />
       </div>
     </div>
   );

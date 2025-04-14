@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExperienceContainer.css";
-import miejercicio from "../../assets/miejercicio.png";
+import miejercicio from "../../assets/miejercicio.webp";
 
 const ExperienceContainer = () => {
   return (
@@ -10,7 +10,7 @@ const ExperienceContainer = () => {
       </div>
       <div class="div2Experience">
         <h2>Experiencia: </h2>
-        <p>
+        <div class="paragraph">
           Estos son algunos de los proyectos en los que trabaje a medida que fui
           aprendiendo:
           <br />
@@ -48,12 +48,48 @@ const ExperienceContainer = () => {
               de Pokemon.
             </li>
             <br />
+            <li>
+              <a href="https://github.com/roela12/ProyectoFinal-React">
+                E-commerce hecho en react
+              </a>
+              : Posteriormente me adentré en el mundo de react y realicé un
+              pequeño e-commerce donde practiqué el uso de hooks y el manejo de
+              estados. Utilicé Firebase para almacenar los datos de los
+              productos y las compras. (no tiene deploy, pero hay un gif en el
+              repo mostrando la funcionalidad).
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/roela12/first_express_server">
+                Primer servidor en Express
+              </a>
+              : Luego de eso me adentré en el mundo del backend con Node y
+              Express y este es mi primer pequeño servidor.
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/roela12/preentrega_MartinezJalil">
+                Proyecto completo de backend
+              </a>
+              : Después realicé un proyecto más grande y complejo sobre un
+              e-commerce con una base de datos en MongoDB en el cual practiqué
+              el manejo de sesiones y autenticación de usuarios. También
+              practiqué el uso de middlewares y la creación de rutas, con una
+              parte realizada con WebSockets. Por otra parte también realicé el
+              manejo de errores y documentación correspondiente, y muchas otras
+              cosas, como por ejemplo el uso del mail para reestablecer
+              contraseñas, el manejo de vistas con Handlebars o de variables de
+              entorno con dotenv. (estaba deployada en railway pero se me
+              terminó el tiempo de uso gratuito, por lo que ahora no está
+              disponible).
+            </li>
+            <br />
           </ul>
           <br />
           Estoy en constante actualización y aprendizaje, siempre buscando
           mejorar mis habilidades y mantenerme al día con las nuevas tendencias
           y tecnologías en el campo de la programación.
-        </p>
+        </div>
       </div>
     </div>
   );

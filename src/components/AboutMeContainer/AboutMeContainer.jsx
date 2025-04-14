@@ -1,4 +1,4 @@
-import myphoto from "../../assets/myphoto.png";
+import myphoto from "../../assets/myphoto.webp";
 import "./AboutMeContainer.css";
 
 function AboutMeContainer() {
@@ -9,7 +9,7 @@ function AboutMeContainer() {
       </div>
       <div class="div2AboutMe">
         <h2>Sobre mi:</h2>
-        <p>
+        <div class="paragraph">
           ¡Hola! Mi nombre es Rodrigo Elias Martinez Jalil, soy un apasionado de
           la programación y las nuevas tecnologías. Desde joven, me ha fascinado
           el mundo de la informática, la lógica matemática y la resolución de
@@ -33,7 +33,7 @@ function AboutMeContainer() {
           eficazmente en un entorno global. Mi objetivo es conseguir mi primer
           empleo en programación y poder aplicar lo aprendido, a la vez que
           continúo desarrollándome como profesional en un entorno laboral.
-        </p>
+        </div>
       </div>
     </div>
   );

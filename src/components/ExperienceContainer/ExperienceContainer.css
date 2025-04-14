@@ -1,25 +1,57 @@
-.parentExperience {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 8px;
+@media only screen and (max-width: 990px) {
+  .parentExperience {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  .div1Experience {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    text-align: center;
+    align-content: center;
+  }
+
+  .div2Experience {
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  #imgExperience {
+    border-radius: 40px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
 }
 
-.div1Experience {
-  grid-row: span 5 / span 5;
-  text-align: center;
-  align-content: center;
-}
+@media only screen and (min-width: 990px) {
+  .parentExperience {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+  }
 
-.div2Experience {
-  grid-column: span 4 / span 4;
-  grid-row: span 5 / span 5;
-}
+  .div1Experience {
+    grid-row: span 5 / span 5;
+    text-align: center;
+    align-content: center;
+  }
 
-#imgExperience {
-  border-radius: 40px;
-  height: 200px;
-  width: 200px;
-  margin: auto;
-  display: block;
+  .div2Experience {
+    grid-column: span 4 / span 4;
+    grid-row: span 5 / span 5;
+  }
+
+  #imgExperience {
+    border-radius: 40px;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
 }

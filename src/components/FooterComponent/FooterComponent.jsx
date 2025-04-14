@@ -1,7 +1,7 @@
 import React from "react";
 import "./FooterComponent.css";
-import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.webp";
+import github from "../../assets/github.webp";
 
 const FooterComponent = () => {
   return (

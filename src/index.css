@@ -7,7 +7,12 @@ body {
 p,
 h2 {
   color: white;
-  margin: 70px;
+  margin: 60px;
+}
+
+.paragraph {
+  color: white;
+  margin: 20px;
 }
 
 .box {
