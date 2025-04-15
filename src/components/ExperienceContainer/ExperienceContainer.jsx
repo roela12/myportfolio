@@ -55,7 +55,7 @@ const ExperienceContainer = () => {
               : Posteriormente me adentré en el mundo de react y realicé un
               pequeño e-commerce donde practiqué el uso de hooks y el manejo de
               estados. Utilicé Firebase para almacenar los datos de los
-              productos y las compras. (no tiene deploy, pero hay un gif en el
+              productos y las compras (no tiene deploy, pero hay un gif en el
               repo mostrando la funcionalidad).
             </li>
             <br />
@@ -79,9 +79,8 @@ const ExperienceContainer = () => {
               manejo de errores y documentación correspondiente, y muchas otras
               cosas, como por ejemplo el uso del mail para reestablecer
               contraseñas, el manejo de vistas con Handlebars o de variables de
-              entorno con dotenv. (estaba deployada en railway pero se me
-              terminó el tiempo de uso gratuito, por lo que ahora no está
-              disponible).
+              entorno con dotenv (estaba deployada en railway pero se me terminó
+              el tiempo de uso gratuito, por lo que ahora no está disponible).
             </li>
             <br />
           </ul>
