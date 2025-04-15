@@ -18,10 +18,6 @@
     grid-column-start: 1;
     grid-row-start: 1;
   }
-
-  #imgAboutMe {
-    border-radius: 40px;
-  }
 }
 
 @media only screen and (min-width: 990px) {
@@ -44,8 +40,12 @@
     grid-row: span 5 / span 5;
     margin: 10px;
   }
+}
 
-  #imgAboutMe {
-    border-radius: 40px;
+#imgAboutMe {
+  border-radius: 40px;
+  transition: transform 1s;
+  &:hover {
+    transform: scale(1.15);
   }
 }

@@ -15,14 +15,6 @@
     text-align: center;
     align-content: center;
   }
-
-  #imgKnowledge {
-    border-radius: 40px;
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    display: block;
-  }
 }
 
 @media only screen and (min-width: 990px) {
@@ -44,12 +36,16 @@
     text-align: center;
     align-content: center;
   }
+}
 
-  #imgKnowledge {
-    border-radius: 40px;
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    display: block;
+#imgKnowledge {
+  border-radius: 40px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  transition: transform 1s;
+  &:hover {
+    transform: scale(1.15);
   }
 }
