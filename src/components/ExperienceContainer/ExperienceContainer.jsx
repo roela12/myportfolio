@@ -1,12 +1,12 @@
 import React from "react";
 import "./ExperienceContainer.css";
-import miejercicio from "../../assets/miejercicio.webp";
+import nodejs from "../../assets/nodejs.webp";
 
 const ExperienceContainer = () => {
   return (
     <div class="parentExperience box" id="experience">
       <div class="div1Experience">
-        <img id="imgExperience" src={miejercicio} alt="mi ejercicio image" />
+        <img id="imgExperience" src={nodejs} alt="nodejs logo" />
       </div>
       <div class="div2Experience">
         <h2>Experiencia: </h2>

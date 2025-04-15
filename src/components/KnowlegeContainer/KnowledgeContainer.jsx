@@ -1,6 +1,6 @@
 import React from "react";
 import "./KnowledgeContainer.css";
-import nodejs from "../../assets/nodejs.webp";
+import react from "../../assets/react.webp";
 
 const KnowledgeContainer = () => {
   return (
@@ -49,7 +49,7 @@ const KnowledgeContainer = () => {
         </div>
       </div>
       <div class="div2Knowledge">
-        <img id="imgKnowledge" src={nodejs} alt="node image" />
+        <img id="imgKnowledge" src={react} alt="react logo" />
       </div>
     </div>
   );
