@@ -18,7 +18,7 @@ const KnowledgeContainer = () => {
             <li>
               Desarrollo web: Dominio en la creación de sitios web utilizando
               tecnologías como HTML5, CSS3, JavaScript, React, Express, Mongodb,
-              Node.
+              Node y SQL.
             </li>
             <br />
             <li>
@@ -45,7 +45,8 @@ const KnowledgeContainer = () => {
           <br />
           Estoy en constante actualización y aprendizaje, siempre buscando
           mejorar mis habilidades y mantenerme al día con las nuevas tendencias
-          y tecnologías en el campo de la programación.
+          y tecnologías en el campo de la programación. Actualmente me encuentro
+          aprendiendo TypeScript.
         </div>
       </div>
       <div class="div2Knowledge">

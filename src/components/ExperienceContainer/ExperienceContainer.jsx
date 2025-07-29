@@ -83,11 +83,17 @@ const ExperienceContainer = () => {
               el tiempo de uso gratuito, por lo que ahora no está disponible).
             </li>
             <br />
+            <li>
+              <a href="https://github.com/roela12/entrega_sql_coderhouse">
+                Proyecto de SQL
+              </a>
+              : En este proyecto empecé a practicar el uso de SQL simulando la
+              creación de una base de datos para una empresa de ventas de
+              productos.
+            </li>
+            <br />
           </ul>
           <br />
-          Estoy en constante actualización y aprendizaje, siempre buscando
-          mejorar mis habilidades y mantenerme al día con las nuevas tendencias
-          y tecnologías en el campo de la programación.
         </div>
       </div>
     </div>
