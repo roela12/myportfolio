@@ -92,6 +92,24 @@ const ExperienceContainer = () => {
               productos.
             </li>
             <br />
+            <li>
+              <a href="https://github.com/roela12/proyecto-react-native-coder">
+                Ecommerce con React Native
+              </a>
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/roela12/TO-DO-LIST">
+                To do list con React Native y Typescript
+              </a>
+            </li>
+            <br />
+            <li>
+              <a href="https://github.com/roela12">
+                Calculadora con React Native y Typescript
+              </a>
+            </li>
+            <br />
           </ul>
           <br />
         </div>
